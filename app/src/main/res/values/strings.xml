@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Grapevine</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Grapevine</string>
+    <string name="title_activity_add_album">Add New Album</string>
 </resources>
