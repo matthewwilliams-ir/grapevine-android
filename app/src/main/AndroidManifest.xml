@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
@@ -19,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".AddAlbumActivity"
             android:label="@string/title_activity_add_album"
@@ -28,6 +30,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.solo.matthew.grapevine.MainActivity" />
         </activity>
+
+        <provider
+            android:name=".provider.AlbumProvider"
+            android:authorities="com.solo.matthew.grapevine"
+            android:exported="false" />
+
     </application>
 
 </manifest>
